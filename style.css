@@ -82,3 +82,9 @@ button {
 .card h3 {
   margin: 10px 0;
 }
+.developer-credit {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
