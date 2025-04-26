@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;
+}
+
+header {
+  background: #0066cc;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  height: 40px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+main, .form-container {
+  padding: 20px;
+  text-align: center;
+}
+
+input, button {
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+}
+
+button {
+  background: #0066cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #0066cc;
+  color: white;
+  text-decoration: none;
+}
+
+.success-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.checkmark {
+  font-size: 100px;
+  color: green;
+  margin-bottom: 20px;
+}
+
+.dashboard-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card h3 {
+  margin: 10px 0;
+}
